@@ -107,7 +107,7 @@ export default function MackbookModel14(props) {
         material={materials.sfCQkHOWyrsLmor}
         rotation={[Math.PI / 2, 0, 0]}
       >
-        <meshBasicMaterial map={texture} />{" "}
+        <meshBasicMaterial map={texture} />
       </mesh>
       <mesh
         geometry={nodes.Object_127.geometry}
